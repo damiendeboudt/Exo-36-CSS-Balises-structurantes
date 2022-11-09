@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    padding:0 2em;
+}
+nav{
+    background-color: aquamarine;
+    height: 10em;
+    margin-top: 5em;
+}
+li{
+    display: inline-block;
+}
+h1{
+    text-align: center;
+}
+.sidebar{
+    display:inline-block;
+    width:30em;
+    height: 50em;
+    margin: 2em 0;
+}
+.main{
+    background-color: blue;
+    padding: 4em 2em;
+}
+.section-haute{
+    display: inline-block;
+    width: 40em;
+    height: 8em;
+    background-color: blueviolet;
+    margin-left: 3em;
+    margin-bottom: 44em;
+}
+.section-mid{
+    background-color: blueviolet;
+    height: 20em;
+    width:40em;
+    margin-left: 33em;
+    margin-bottom: 150em;
+}
