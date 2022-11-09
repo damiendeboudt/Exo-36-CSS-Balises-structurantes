@@ -2,44 +2,60 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: ROBOTO regular, sans-serif;
 }
-body{
+header nav{
     width: 100%;
-    padding:0 2em;
+    background-color: gray;
+    height: 5em;
+    text-align: center;
+    padding-top: 1em;
 }
-nav{
-    background-color: aquamarine;
-    height: 10em;
-    margin-top: 5em;
-}
-li{
+header li {
     display: inline-block;
+    color: white;
+    font-size: large;
+    margin: 1em;
 }
 h1{
     text-align: center;
+    margin-top: 1em;
+    color: gray;
+    margin-bottom: 2rem;
 }
-.sidebar{
-    display:inline-block;
-    width:30em;
-    height: 50em;
-    margin: 2em 0;
-}
-.main{
-    background-color: blue;
-    padding: 4em 2em;
+.nav-gauche{
+    display: inline-block;
+    background-color: #c0c0c0;
+    width: 20rem;
+    height: 35rem;
+    margin-left: 2rem;
 }
 .section-haute{
+    margin-left: 1rem;
     display: inline-block;
-    width: 40em;
-    height: 8em;
-    background-color: blueviolet;
-    margin-left: 3em;
-    margin-bottom: 44em;
+    width:35rem;
+    height: 6rem;
+    background-color: #c0c0c0;
+    position: absolute;
 }
 .section-mid{
-    background-color: blueviolet;
-    height: 20em;
-    width:40em;
-    margin-left: 33em;
-    margin-bottom: 150em;
+    display: inline-block;
+    margin-left: 1rem;
+    width:35rem;
+    background-color: #c0c0c0;
+    position: absolute;
+    height: 28rem;
+    margin-top: 7rem;
+}
+article{
+    display: inline-block;
+    width: 8rem;
+    height: 17rem;
+    background-color: rgba(17, 16, 16, 0.09);
+    margin: 10rem 0 0 3rem;
+}
+footer{
+    background-color: gray;
+    height: 4rem;
+    margin-top: 2rem;
 }
